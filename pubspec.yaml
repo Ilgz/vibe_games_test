@@ -1,0 +1,48 @@
+name: vibe_games_test
+description: "Battle Pass Flutter test project with mocked data."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  flutter_svg: ^2.3.0
+  freezed_annotation: ^3.1.0
+
+dev_dependencies:
+  build_runner: ^2.15.1
+  flutter_lints: ^6.0.0
+  freezed: ^3.2.5
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Geologica
+      fonts:
+        - asset: assets/fonts/Geologica-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Geologica-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Geologica-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Geologica-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Geologica-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Geologica-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Geologica-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Geologica-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Geologica-Black.ttf
+          weight: 900
+  assets:
+    - assets/images/core/
+    - assets/images/battle_pass/
+    - assets/images/battle_pass/items/
+    - assets/icons/battle_pass/
